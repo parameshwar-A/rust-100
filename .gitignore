@@ -1,0 +1,21 @@
+# Rust build artifacts
+target/
+**/target/
+
+# Cargo lock files
+Cargo.lock
+**/Cargo.lock
+
+# macOS / Linux / Windows OS files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local scripts
+clean.sh
