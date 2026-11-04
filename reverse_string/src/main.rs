@@ -5,8 +5,6 @@ fn main() {
 }
 
 fn reverse_string(s01: &mut String) {
-
-
     let mut chars: Vec<char> = s01.chars().collect();
     let mut s: usize = 0;
     let mut e: usize = chars.len()-1;
