@@ -1,4 +1,4 @@
-fn main() {
+f; main() {
     let mut s: String = String::from("Welcome");
     reverse_string(&mut s);
     println!("{}", s);
